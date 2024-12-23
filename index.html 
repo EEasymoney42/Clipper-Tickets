@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clippers Tickets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #c8102e;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .ticket {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .ticket h2 {
+            margin-top: 0;
+            color: #c8102e;
+        }
+        .ticket p {
+            margin: 5px 0;
+        }
+        .buy-now {
+            background-color: #c8102e;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .buy-now:hover {
+            background-color: #a00;
+        }
+        .contact-form {
+            margin-top: 40px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #c8102e;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #a00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buy Clippers Tickets</h1>
+        <p>Get your tickets now for the best seats!</p>
+    </header>
+    <div class="container">
+        <!-- Ticket Section -->
+        <div class="ticket">
+            <h2>Clippers vs Lakers</h2>
+            <p><strong>Date:</strong> December 30, 2024</p>
+            <p><strong>Section:</strong> 100, Row A</p>
+            <p><strong>Price:</strong> $150</p>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+        <div class="ticket">
+            <h2>Clippers vs Warriors</h2>
+            <p><strong>Date:</strong> January 5, 2025</p>
+            <p><strong>Section:</strong> 200, Row B</p>
+            <p><strong>Price:</strong> $120</p>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about tickets, fill out the form below:</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
